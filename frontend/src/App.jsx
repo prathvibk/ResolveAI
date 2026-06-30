@@ -18,7 +18,7 @@ function App() {
     setLoading(true)
 
     try {
-      const response = await axios.post('http://localhost:5000/api/chat', {
+      const response = await axios.post('https://resolveai-yg3k.onrender.com/api/chat', {
         message: userMessage
       })
 
